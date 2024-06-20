@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption Sully</title>
+    <link rel="stylesheet" href="si.css">
+    <link rel="stylesheet" href="quisas.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+<body >
+    <header>
+        <div class="container">
+            <img src="logooo.jpg" alt="Logo de la tienda" width="0" height="0" >
+            <h1>adoption sully</h1>
+           <body>
+
+        <button class="menu-btn" onclick="toggleMenu()">Menú</button>
+        
+        <div class="menu" id="menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#comentarios">Comentarios</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        
+        <div class="container" id="inicio">
+            <p>Bienvenidos a este espacio seguro para encontar un fiel compañero.</p>
+        </div>
+        
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById("menu");
+                if (menu.style.display === "block") {
+                    menu.style.display = "none";
+                } else {
+                    menu.style.display = "block";
+                }
+            }
+        </script> 
+    </header>
+    <section id="hero">
+       <a href="quisas.html" class="btn">Explorar</a>
+    </section> 
+    
+    <section id="featured-products">
+        <div class="container">
+            <h2>Adopta a un peludito</h2>
+            <article class="post">
+                <h2>"Morita"</h2>
+            <img src="Perrita-en-adopcion-Morita.jpg" alt="">
+            <p>
+                "Adopta a morita una perrita de raza mediana, tranquila y amable y con mucho cariño y amor para dar."
+            </p>
+            </article>
+        </div>
+    </section>
+
+    <div class="container" id="nosotros"></div>
+            <h2 id="nosotros">Sobre nosotros</h2>
+            <p>
+             Adoption sully es una empresa dedicada a brindar servicios de adopcion de mascotas.
+             Su mision es conectar de manera responsable a animales que necesitan un hogar amoroso 
+             y con familias y personas  que esten dispuestas a brindarles cuidado y afecto.
+             La empresa se esfuerza por garantizar que cada adopción sea un proceso cuidadoso y adecuado, 
+             asegurando que tanto los animales como los adoptantes sean compatibles y estén preparados para
+              una vida juntos. Además de facilitar adopciones, Adoption Sully puede ofrecer servicios de asesoramiento 
+              y apoyo post-adopción para garantizar el bienestar continuo de las mascotas y sus nuevos dueños.
+               Su compromiso con el bienestar animal y la felicidad de las familias adoptivas es fundamental en todas
+                sus operaciones
+            </p>
+        </div>
+    </section>
+        <section class="container">
+            <div class="container" id="comentarios">        
+    <div id="comentarios">
+<!-- Aquí se mostrarán los comentarios -->
+    </div>
+  <hr>
+<h2 id="ok">Deja un comentario</h2>
+<form id="formulario-comentario">
+<label for="nombre">Nombre:</label><br>
+<input type="text" id="nombre" name="nombre"><br>
+<label for="mensaje">Mensaje:</label><br>
+<textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+<button type="submit">Enviar</button>
+</form>
+
+        </section>
+    <footer>
+       
+        <div class="container" id="contacto">
+            <div class="footer-info">
+                <h3>Contáctanos</h3>
+                <p id="yes">Teléfono: 442-582-3700</p>
+                <p>Email: soporte@adoptionsully.com</p>
+                <a href="https://g.co/kgs/UA9aVvR" class="link">Dirección: COL., Av de las Fuentes 2123, Fundadores, 76117 Santiago de Querétaro, Qro. </a>
+            </div>
+            <div class="social-links">
+                <h3>Síguenos</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
